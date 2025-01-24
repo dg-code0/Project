@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/syntax-elgamal.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/main-elgamal.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/forge/0.10.0/forge.min.js"></script>
+    <title>ElGamal</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <h1>ElGamal</h1>
+        <div class="info-text">
+          <h2>The El Gamal scheme</h2>
+          <p>
+            асимметричный алгоритм,<br />
+            который используется для шифрования и цифровых подписей
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <h3>Ваш текст:</h3>
+        <input type="text" class="label" id="textInput" />
+        <div class="public-key-text">
+          <h3>Публичный ключ:</h3>
+          <input type="text" class="label" id="publicKeyInput" />
+        </div>
+        <div class="private-key-text">
+          <h3>Приватный ключ:</h3>
+          <input type="text" class="label" id="privateKeyInput" />
+        </div>
+        <div class="var-btns">
+          <button class="btn" id="encrypt-btn">
+            <p>зашифровать</p>
+          </button>
+          <button class="btn" id="decrypt-btn">
+            <p>расшифровать</p>
+          </button>
+        </div>
+        <div class="output-text">
+          <h3>Итог:</h3>
+          <input type="text" class="label" id="outputInput" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Roboto", serif;
+}
+
+.container {
+  min-height: 100%;
+  max-width: 1050px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info {
+  display: flex;
+  margin-bottom: 40px;
+  border-bottom: 4px solid #86898f;
+}
+
+.info h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 90px;
+}
+
+.info-text h2 {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.info-text p {
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 50px;
+  padding-right: 100px;
+  color: #86898f;
+}
+
+.row {
+  margin-top: 100px;
+}
+
+.row h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  width: 200px;
+  height: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.row p {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.var-btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.var-btns  button{
+  margin: 20px;
+  border: 3px solid #86898f;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #dadadb;
+}
+
+.generate-keys-btn {
+  border: 3px solid #86898f;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #dadadb;
+  display: block;
+  width: 300px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.output-text {
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.generate-keys-btn:hover {
+  opacity: 0.9;
+}

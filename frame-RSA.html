@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/syntax-rsa.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/main-rsa.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/forge/0.10.0/forge.min.js"></script>
+    <title>RSA</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <h1>RSA</h1>
+        <div class="info-text">
+          <h2>Rivest-Shamir-Adleman</h2>
+          <p>
+            асимметричный алгоритм,<br />
+            используемый для шифрования и цифровой подписи
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <h3>Ваш текст:</h3>
+        <input type="text" class="label" />
+
+        <div class="public-key-text">
+          <h3>Публичный ключ:</h3>
+          <input type="text" class="label" />
+        </div>
+        <div class="private-key-text">
+          <h3>Приватный ключ:</h3>
+          <input type="text" class="label" />
+        </div>
+        <div class="var-btns">
+          <button class="btn">
+            <p>зашифровать</p>
+          </button>
+          <button class="btn">
+            <p>расшифровать</p>
+          </button>
+        </div>
+        <div class="output-text">
+          <h3>Итог:</h3>
+          <input type="text" class="label" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

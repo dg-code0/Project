@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/syntax-ecc.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/main-ecc.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/forge/0.10.0/forge.min.js"></script>
+    <title>ECC</title>
+  </head>
+  <body class="detail">
+    <div class="container">
+      <div class="info">
+        <h1>ECC</h1>
+        <div class="info-text">
+          <h2>Elliptic Curve Cryptography</h2>
+          <p>
+            это метод асимметричного шифрования,<br />
+            который использует математические свойства эллиптических кривых<br />
+            для обеспечения безопасности данных
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <h3>Ваш текст:</h3>
+        <input type="text" class="label" id="textInput"/>
+
+        <div class="public-key-text">
+          <h3>Публичный ключ:</h3>
+          <input type="text" class="label" id="publicKeyInput" readonly/>
+        </div>
+        <div class="private-key-text">
+          <h3>Приватный ключ:</h3>
+          <input type="text" class="label" id="privateKeyInput" readonly/>
+        </div>
+        <div class="var-btns">
+          <button class="generate-keys-btn" id="generate-keys-btn">
+            <p>Сгенерировать ключи</p>
+          </button>
+          <button class="encrypt-btn" id="encrypt-btn">
+            <p>зашифровать</p>
+          </button>
+          <button class="decrypt-btn" id="decrypt-btn">
+            <p>расшифровать</p>
+          </button>
+        </div>
+        <div class="output-text">
+          <h3>Итог:</h3>
+          <input type="text" class="label" id="outputInput" readonly/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
