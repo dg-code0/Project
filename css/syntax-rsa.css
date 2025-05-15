@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+html{
+  height: 100%;
+  width: 100%;
+}
+
 body {
-  background-color: #f1f1f1;
-  color: #0f141e;
+  background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 55%, rgba(0, 212, 255, 1) 100%);  color: #0f141e;
   font-size: 25px;
   font-weight: normal;
   font-family: "Roboto", serif;
@@ -26,6 +30,7 @@ body {
   display: flex;
   margin-bottom: 40px;
   border-bottom: 4px solid #86898f;
+  color: white;
 }
 
 .info h1 {
@@ -42,13 +47,15 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
+  color: white;
+
 }
 
 .info-text p {
   text-align: center;
   margin-top: 5px;
   margin-left: 60px;
-  color: #86898f;
+  color: #d8d8d8;
 }
 
 .row {
@@ -59,6 +66,8 @@ body {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
+  color: white;
+
 }
 
 .label {
@@ -67,6 +76,7 @@ body {
   height: 20px;
   margin: auto;
   margin-bottom: 20px;
+  font-weight: 800;
 }
 
 .row p {
@@ -84,10 +94,10 @@ body {
 
 .var-btns  button{
   margin: 20px;
-  border: 3px solid #86898f;
+  border: 3px solid #cecece;
   padding: 5px;
   box-sizing: border-box;
-  background: #dadadb;
+  background: #ffffff;
 }
 
 .output-text {
