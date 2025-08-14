@@ -72,7 +72,3 @@ body {
   font-size: 23px;
   color: black;
 }
-
-.button:hover {
-  opacity: 0.5;
-}
