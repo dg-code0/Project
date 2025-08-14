@@ -1,5 +1,3 @@
-// main-rsa.js
-
 // Функция для генерации ключей
 function generateKeys() {
   const { pki } = forge;
@@ -53,3 +51,4 @@ document.addEventListener("DOMContentLoaded", () => {
     outputInput.value = decryptedText;
   });
 });
+
