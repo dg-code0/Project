@@ -1,4 +1,4 @@
-// Функция для генерации ключей ElGamal
+// Функция для генерации ключей
 function generateElGamalKeys() {
   const { pki } = forge;
   const keypair = pki.rsa.generateKeyPair({ bits: 2048 });
@@ -51,3 +51,4 @@ window.onload = function () {
     outputInput.value = decryptedMessage; // Выводим расшифрован ное сообщение
   });
 };
+
